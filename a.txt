@@ -1,0 +1,12 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 22A6-0B35
+
+ Directory of C:\Code\CICDDemo\Service1
+
+05/11/2021  07:29 PM    <DIR>          .
+05/11/2021  07:29 PM    <DIR>          ..
+05/11/2021  07:29 PM             6,352 .gitignore
+05/11/2021  07:29 PM                 0 a.txt
+05/11/2021  07:29 PM                10 README.md
+               3 File(s)          6,362 bytes
+               2 Dir(s)  174,885,429,248 bytes free
