@@ -66,10 +66,8 @@ namespace ItemService.Controllers
             {
                 return BadRequest();
             }
-
             _context.Entry(fruit).State = EntityState.Modified;
             await _context.SaveChangesAsync();
-
             return NoContent();
         }
         [HttpDelete("{id}")]
