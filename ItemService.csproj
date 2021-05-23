@@ -21,4 +21,8 @@
     <PackageReference Include="NSwag.AspNetCore" Version="13.1.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pipeline\" />
+  </ItemGroup>
+
 </Project>
