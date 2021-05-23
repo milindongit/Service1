@@ -59,17 +59,17 @@ namespace ItemService.Controllers
 
             return NoContent();
         }
-        //[HttpPatch("{id}")]
-        //public async Task<IActionResult> Patch(int id, Fruit fruit)
-        //{
-        //    if (id != fruit.Id)
-        //    {
-        //        return BadRequest();
-        //    }
-        //    _context.Entry(fruit).State = EntityState.Modified;
-        //    await _context.SaveChangesAsync();
-        //    return NoContent();
-        //}
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> Patch(int id, Fruit fruit)
+        {
+            if (id != fruit.Id)
+            {
+                return BadRequest();
+            }
+            _context.Entry(fruit).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
