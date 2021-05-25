@@ -64,6 +64,7 @@ namespace ItemService.Controllers
         {
             if (id != fruit.Id)
             {
+                var test = "CICD";
                 return BadRequest();
             }
             _context.Entry(fruit).State = EntityState.Modified;
